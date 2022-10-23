@@ -510,7 +510,7 @@ theme: default
 
 # Choose the mode that zellij uses when starting up.
 # Default: normal
-default_mode: locked
+default_mode: normal
 
 # Toggle enabling the mouse mode.
 # On certain configurations, or terminals this could
@@ -542,7 +542,7 @@ default_mode: locked
 # Options:
 #   - system (default)
 #   - primary
-#copy_clipboard: primary
+copy_clipboard: system
 
 # Enable or disable automatic copy (and clear) of selection when releasing mouse
-#copy_on_select: true
+copy_on_select: true
